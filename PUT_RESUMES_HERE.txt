@@ -1,0 +1,12 @@
+PUT YOUR CANDIDATE RESUME PDFs IN THIS FOLDER.
+
+Supported format: PDF only (.pdf)
+Naming convention: use candidate name as filename
+
+Examples:
+  john_doe.pdf
+  jane_smith.pdf
+  rahul_sharma.pdf
+
+The app will auto-detect all PDFs here and process them.
+Delete this file — it's just a placeholder so the folder appears in GitHub.

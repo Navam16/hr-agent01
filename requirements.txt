@@ -1,0 +1,23 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║         HR VOICE AGENT — PYTHON DEPENDENCIES             ║
+# ╚══════════════════════════════════════════════════════════╝
+#
+# Install all with:
+#   pip install -r requirements.txt
+
+# ── Core Framework ────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── LLM + Whisper STT ─────────────────────────────────────────
+# Both use the SAME Groq API key
+groq>=0.9.0
+
+# ── Text-to-Speech ────────────────────────────────────────────
+# gTTS = Google Text-to-Speech (FREE, no API key needed)
+gTTS>=2.5.0
+
+# ── PDF Parsing ───────────────────────────────────────────────
+PyPDF2>=3.0.0
+
+# ── Environment Variables ─────────────────────────────────────
+python-dotenv>=1.0.0
